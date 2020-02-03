@@ -1,13 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ExampleModule from 'example-module'
+import Package from 'package'
 import './styles.css'
 
 const App: React.SFC = (): React.ReactElement => {
   return (
     <div className="wrapper">
-      <h1>Demo</h1>
-      <ExampleModule propNumber={333} propString="test-string" />
+      <Package propNumber={333} propString="test-string" />
     </div>
   )
 }

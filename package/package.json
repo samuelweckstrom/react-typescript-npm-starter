@@ -1,0 +1,17 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "React TypeScript NPM starter",
+  "url": "https://github.com/samuelweckstrom/react-typescript-npm-starter",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "rollup -c --watch",
+    "build": "rollup -c && tsc",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

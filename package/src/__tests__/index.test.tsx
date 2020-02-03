@@ -1,11 +1,11 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import ExampleModule from '..'
+import Package from '..'
 
-describe('<ExampleModule />', () => {
+describe('<Package />', () => {
   it('should render', () => {
     const props = {}
-    const wrapper = shallow(<ExampleModule {...props} />)
+    const wrapper = shallow(<Package {...props} />)
     expect(wrapper).toBeDefined()
   })
 })

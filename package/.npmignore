@@ -2,3 +2,5 @@ node_modules
 setupTests.js
 setupTestsTypescript.js
 tsconfig.json
+rollup.config.js
+setupEnzyme.ts

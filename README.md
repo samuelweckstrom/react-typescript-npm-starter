@@ -1,11 +1,12 @@
-# React-Typescript NPM starter
+# React Typescript NPM starter
 
-Starter for creating NPM modules with TypeScript. Uses Yarn workspaces which will help you import and demo your module locally without conflicting dependencies. Yarn will create a symlink for your module in the demo project dependencies, so it can be referenced inside your `package.json` and imported just like any other module.
+Starter for creating NPM packages with TypeScript. Uses Yarn Workspaces to handle local development without conflicting dependencies.
 
 ## Features
 
 - React 16.8+
 - TypeScript 3.5+
+- Rollup bundler for package
 - Parcel bundler for demo
 - Jest and Enzyme for tests
 
@@ -18,13 +19,13 @@ Starter for creating NPM modules with TypeScript. Uses Yarn workspaces which wil
 Start in watchmode:
 
 ```bash
-yarn workspace example-module start
+yarn workspace package start
 ```
 
-To compile your TS files:
+To bundle your package:
 
 ```bash
-yarn workspace example-module build
+yarn workspace package build
 ```
 
 ### Run demo
@@ -35,14 +36,8 @@ yarn workspace demo start
 
 ### Publish to NPM
 
-Inside the module folder, run:
+Inside the package folder run:
 
 ```bash
 npm publish
 ```
-
-### Make it your own
-
-Wherever you have `example-module`, just rename that to whatever your module name is.
-
-#

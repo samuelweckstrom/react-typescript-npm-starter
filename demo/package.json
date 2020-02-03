@@ -7,7 +7,7 @@
     "start": "parcel index.html"
   },
   "dependencies": {
-    "example-module": "*",
+    "package": "*",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

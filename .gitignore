@@ -8,5 +8,5 @@
 **/yarn-error.log
 **/.env
 **/.jest
-demo/dist
-example-module/dist
+dist
+.cache
